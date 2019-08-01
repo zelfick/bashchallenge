@@ -7,6 +7,7 @@ if [ -d $repository ]; then
     
     if [ "$branch" = $(git branch | grep $branch | cut -d " " -f 2) ]; then
 
+        git checkout $branch
         git push -u origin $branch
     
     else
