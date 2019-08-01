@@ -55,8 +55,7 @@ case "$gitaction" in
     4) 
         sh commit.sh
         ;;
-    5) 
-        echo "Function pending to implement"
+    5) sh push.sh
         ;;
     *) echo "Invalid Selected Option"
         ;;
