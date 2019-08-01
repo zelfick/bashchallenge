@@ -39,6 +39,8 @@ Submenu 3
        
 
 Gitrepositories to work with:
+https://github.com/zelfick/firstbashchallenge
+https://github.com/zelfick/secondbashchallenge
 
 For the docker: you must build the images and run the containers from the two previously github repositories
 
