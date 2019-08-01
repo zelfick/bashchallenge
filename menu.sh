@@ -50,8 +50,7 @@ case "$gitaction" in
         ;;
     2) sh gitconnect.sh
         ;;
-    3) 
-        echo "Function pending to implement"
+    3) sh delete_repository.sh
         ;;
     4) 
         echo "Function pending to implement"
