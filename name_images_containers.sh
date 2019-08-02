@@ -27,7 +27,7 @@ case "$action" in
                 while :
                 do
 
-                    if [ "${private,,}" = y || "${private,,}" = yes ]; then
+                    if [[ "${private,,}" = y || "${private,,}" = yes ]]; then
 
                         read -p "Registry name and (if needed) port: " registry
 
@@ -42,7 +42,7 @@ case "$action" in
                             break
                         fi 
 
-                        elif [ "${private,,}" = n || "${private,,}" = no ]; then
+                        elif [[ "${private,,}" = n || "${private,,}" = no ]]; then
 
                             if [ -z $version ]; then 
 
@@ -108,7 +108,7 @@ case "$action" in
 
                 else 
 
-                    printf 'Please type y or n'
+                    printf 'Please type y or n\n'
                     continue
 
                 fi
@@ -146,7 +146,7 @@ case "$action" in
 
                 else 
 
-                    printf 'Please type y or n'
+                    printf 'Please type y or n\n'
                     continue
 
                 fi
