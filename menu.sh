@@ -94,7 +94,7 @@ case "$logsaction" in
         sh docker_logs.sh
         ;;
     4) 
-        echo "Function pending to implement"
+        sh systemlogs.sh
         ;;
     *) echo "Invalid Selected Option"
         ;;
