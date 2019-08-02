@@ -48,16 +48,14 @@ case "$gitaction" in
     1) 
         echo "Function pending to implement"
         ;;
-    2) sh gitconnect.sh
+    2)  sh gitconnect.sh
         ;;
-    3) 
-        echo "Function pending to implement"
+    3)  sh delete_repository.sh
         ;;
     4) 
-        echo "Function pending to implement"
+        sh commit.sh
         ;;
-    5) 
-        echo "Function pending to implement"
+    5) sh push.sh
         ;;
     *) echo "Invalid Selected Option"
         ;;
