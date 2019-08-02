@@ -48,7 +48,7 @@ case "$gitaction" in
     1) 
         echo "Function pending to implement"
         ;;
-    2) sh gitconnect.sh
+    2)  sh gitconnect.sh
         ;;
     3) 
         echo "Function pending to implement"
@@ -77,7 +77,7 @@ case "$dockeraction" in
         sh delete_container_image.sh
         ;;
     5) 
-        echo "Function pending to implement"
+        bash docker_repository_actions.sh
         ;;
     *)  echo "Invalid Selected Option"
         ;;
