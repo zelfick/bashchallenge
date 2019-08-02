@@ -91,7 +91,7 @@ case "$logsaction" in
         echo "Function pending to implement"
         ;;
     3) 
-        echo "Function pending to implement"
+        sh docker_logs.sh
         ;;
     4) 
         echo "Function pending to implement"
