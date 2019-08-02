@@ -6,6 +6,10 @@ echo "##########################################################################
 
 while :
 do
+    read -p "Repository route: " route
+
+    cd $route
+    
     read -p "CHOOSE THE ACTION TO EXECUTE 
         1) SEE GIT LOGS WITH -ID, -AUTOR, -DATE, -MESSAGE
         2) SEE GIT LOGS IN A LINE
