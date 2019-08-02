@@ -71,7 +71,7 @@ case "$dockeraction" in
         echo "Function pending to implement"
         ;;
     3) 
-        echo "Function pending to implement"
+        sh name_images_containers.sh
         ;;
     4) 
         sh delete_container_image.sh
