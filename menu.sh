@@ -48,7 +48,7 @@ case "$gitaction" in
     1) 
         echo "Function pending to implement"
         ;;
-    2) sh gitconnect.sh
+    2)  sh gitconnect.sh
         ;;
     3) 
         echo "Function pending to implement"
@@ -88,13 +88,13 @@ case "$logsaction" in
         sh capturepage.sh
         ;;
     2) 
-        echo "Function pending to implement"
+        bash git_logs.sh
         ;;
     3) 
-        echo "Function pending to implement"
+        sh docker_logs.sh
         ;;
     4) 
-        echo "Function pending to implement"
+        sh systemlogs.sh
         ;;
     *) echo "Invalid Selected Option"
         ;;
