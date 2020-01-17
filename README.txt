@@ -6,7 +6,7 @@ The idea is to build a program to automate basic task we do in our day work, and
 Also to practice the concepts with saw in basic bash and git in order to integrate that recently adquired knowledge
 That is way you will have to use docker and git commands inside your bash script.
 
-The propousal is to build a menu like this:
+The proposal is to build a menu like this:
 
 #########################################################################
 PROGRAM TO AUTOMATE GIT, DOCKER AND OTHER MANIPULATION COMMANDS"
